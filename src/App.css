@@ -1,0 +1,62 @@
+.App{
+  display: grid;
+  min-width: 100%;
+  min-height: 100%;
+  grid-template-columns: 30% 70%;
+  grid-template-areas: "aside  content";
+
+  margin: 2%;
+
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+
+  border-width: 3px;
+  border-color: #0F2540;
+}
+
+aside{
+  padding: 2% 0;
+  height: 100%;
+
+  border-right-style: dotted;
+  border-width: 3px;
+  border-color: #0F2540;
+
+  grid-area: aside;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  display: inline-grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "pic name";
+
+  border-bottom-style: dotted;
+
+  border-width: 3px;
+  border-color: #0F2540;
+}
+
+.pic{
+  grid-area: pic;
+  width: 100%;
+
+  border-right-style: dotted;
+
+  border-width: 3px;
+  border-color: #0F2540;
+}
+
+.name{
+  grid-area: name;
+  vertical-align: middle;
+}
+
+.content {
+  grid-area: content;
+
+  padding: 0 2%;
+}

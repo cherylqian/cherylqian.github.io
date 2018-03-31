@@ -1,0 +1,44 @@
+.Modal {
+  position: absolute;
+  top: 5em;
+  left: 2em;
+  right: 2em;
+  bottom: 8em;
+  background-color: #0B1013;
+  opacity: 0.9;
+  padding: 2em;
+
+  border-width: 3px;
+  border-color: #0F2540;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-areas: "title  close";
+}
+
+.Modal>h1{
+  grid-area: title;
+  font-weight: bold;
+}
+
+.Modal p{
+  font-size: 1.25em;
+}
+
+.close{
+  grid-area: close;
+  font-size: 1.5em;
+  margin: 1.1em;
+  justify-self: end;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.2);
+}

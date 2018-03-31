@@ -1,0 +1,42 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Share Tech Mono', monospace;
+  color: #58B2DC; /* SORA */
+  background-color: #0B1013; /* KUROTSURUBAMI */
+  font-size: 0.9em;
+}
+
+#root{
+  height: 90%;
+  width: 95%;
+}
+
+svg {
+
+}
+svg g {
+  fill: #58B2DC;
+  fill-opacity: 0.3;
+}
+svg g:hover {
+  fill-opacity: 1;
+}
+svg g:hover text {
+  fill-opacity: 1;
+}
+
+svg g polygon {
+  stroke: #58B2DC;
+  stroke-width: 0.2;
+  transition: fill-opacity .2s;
+}
+svg g text {
+  font-size: 0.3em;
+  fill: #7DB9DE;
+  fill-opacity: 1;
+  transition: fill-opacity .2s;
+}

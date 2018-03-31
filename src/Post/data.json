@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "q": -2,
+      "r": 0,
+      "s": 1,
+      "label": "Research",
+      "title": "Research in Social Spaces Group at UIUC",
+      "__html": "Exploratory data mining, predictive machine learning and analysis on large data sets (including developing visualizations and regression models). Early work also developed a web app that connected to social media APIs and allowed users to filter their news feeds."
+    }
+  ]
+}

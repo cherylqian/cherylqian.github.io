@@ -1,0 +1,86 @@
+.icon{
+  font-family: "FontAwesome";
+  font-size: 0.7em;
+}
+
+.Research:hover text,
+.github:hover text,
+.linkedin:hover text,
+.resume:hover text{
+  fill: #0B1013;
+}
+
+@keyframes fade {
+    0% {
+      fill-opacity: 1;
+      fill: rgba(255, 255, 255, 1);
+    }
+    60% {
+      fill-opacity: 1;
+      fill: rgba(255, 255, 255, 1);
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+g.hexagon-group, polygon{
+  animation: fade 0.5s ease;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+g.hexagon-group.mail, g.hexagon-group.mail polygon{
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+g.hexagon-group.github, g.hexagon-group.github polygon{
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+g.hexagon-group.linkedin, g.hexagon-group.linkedin polygon{
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+g.hexagon-group.resume, g.hexagon-group.resume polygon {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+g.hexagon-group:nth-child(5), g.hexagon-group:nth-child(5) polygon {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+g.hexagon-group:nth-child(6), g.hexagon-group:nth-child(6) polygon {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+g.hexagon-group:nth-child(7), g.hexagon-group:nth-child(7) polygon {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+g.hexagon-group:nth-child(8), g.hexagon-group:nth-child(8) polygon {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+g.hexagon-group:nth-child(9), g.hexagon-group:nth-child(9) polygon {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+g.hexagon-group:nth-child(10), g.hexagon-group:nth-child(10) polygon {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+g.hexagon-group:nth-child(11), g.hexagon-group:nth-child(11) polygon {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
