@@ -45,7 +45,7 @@ class Main extends Component {
                 <Text className="icon" y={3.5}>&#xf0e1;</Text>
               </Hexagon>
             </a>
-            <a href={window.location.href + "files/resume.pdf"}>
+            <a href="http://chenq2.web.engr.illinois.edu/resume.pdf">
               <Hexagon className="resume" q={-1} r={1} s={0}>
                 <Text className="icon" y={3.5}>&#xf016;</Text>
               </Hexagon>
