@@ -50,7 +50,7 @@ class Post extends Component {
               <i className="fas fa-times" />
             </span>
           </span>
-          <p dangerouslySetInnerHTML={this.props.post} />
+          <div dangerouslySetInnerHTML={this.props.post} className="content"/>
         </ReactModal>
       </React.Fragment>
     );

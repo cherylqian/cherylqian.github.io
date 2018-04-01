@@ -32,11 +32,17 @@ svg g:hover text {
 svg g polygon {
   stroke: #58B2DC;
   stroke-width: 0.2;
+  -webkit-transition: fill-opacity .2s;
+  -moz-transition: fill-opacity .2s;
+  -o-transition: fill-opacity .2s;
   transition: fill-opacity .2s;
 }
 svg g text {
   font-size: 0.3em;
   fill: #7DB9DE;
   fill-opacity: 1;
+  -webkit-transition: fill-opacity .2s;
+  -moz-transition: fill-opacity .2s;
+  -o-transition: fill-opacity .2s;
   transition: fill-opacity .2s;
 }

@@ -6,7 +6,8 @@
 .Research:hover text,
 .github:hover text,
 .linkedin:hover text,
-.resume:hover text{
+.resume:hover text,
+.mail:hover text{
   fill: #0B1013;
 }
 

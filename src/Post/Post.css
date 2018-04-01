@@ -9,6 +9,7 @@
   padding: 2em;
 
   border-width: 3px;
+  border-style: solid;
   border-color: #0F2540;
 }
 
@@ -23,8 +24,9 @@
   font-weight: bold;
 }
 
-.Modal p{
+.Modal .content{
   font-size: 1.25em;
+  margin: 0 1em;
 }
 
 .close{
@@ -41,4 +43,8 @@
   right: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.2);
+}
+
+.Modal .content li{
+  margin-bottom: 1em;
 }
