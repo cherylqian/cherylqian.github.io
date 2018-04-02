@@ -2,7 +2,7 @@
   "name": "heosphoros",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cherylqian.github.io/heosphoros/",
+  "homepage": "https://cherylqian.github.io/",
   "dependencies": {
     "add": "^2.0.6",
     "gh-pages": "^1.1.0",
