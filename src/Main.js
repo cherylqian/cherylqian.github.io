@@ -31,7 +31,7 @@ class Main extends Component {
       <div className="main">
         <HexGrid width={this.state.width} height={this.state.height}>
           <Layout size={{ x: 10, y: 10 }} flat={true} spacing={1.05} origin={{ x: 0, y: 0 }}>
-            <Hexagon className="name" q={0} r={0} s={0} fill>
+            <Hexagon className="name" q={0} r={0} s={0} className="disabled">
               <Text x={0} y={-1}>Chen</Text>
               <Text y={0} y={4}>Qian</Text>
             </Hexagon>
@@ -55,18 +55,18 @@ class Main extends Component {
                 <Text className="icon" y={3.5}>&#xf003;</Text>
               </Hexagon>
             </a>
-            <Hexagon q={-1} r={0} s={1} fill/>
-            <Hexagon q={0} r={1} s={-1} fill/>
+            <Hexagon q={-1} r={0} s={1} className="disabled"/>
+            <Hexagon q={0} r={1} s={-1} className="disabled"/>
 
             {
               data.posts.map(post => {
                 return <Post post={post} key={post.label}/>
               })
             }
-            <Hexagon q={2} r={-1} s={0} fill/>
+            <Hexagon q={2} r={-1} s={0} className="disabled"/>
 
-            <Hexagon q={-3} r={-1} s={1} fill/>
-            <Hexagon q={-4} r={0} s={0} fill/>
+            <Hexagon q={-3} r={-1} s={1} className="disabled"/>
+            <Hexagon q={-4} r={0} s={0} className="disabled"/>
 
           </Layout>
         </HexGrid>

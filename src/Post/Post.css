@@ -29,6 +29,13 @@
   margin: 0 1em;
 }
 
+.Modal .content a:link,
+.Modal .content a:visited,
+.Modal .content a:hover,
+.Modal .content a:active{
+  color: white;
+}
+
 .close{
   grid-area: close;
   font-size: 1.5em;

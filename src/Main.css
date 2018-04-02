@@ -3,6 +3,10 @@
   font-size: 0.7em;
 }
 
+.disabled g polygon{
+  fill: #0B1013;
+}
+
 .Research:hover text,
 .github:hover text,
 .linkedin:hover text,

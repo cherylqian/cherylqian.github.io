@@ -5,8 +5,8 @@
       "r": 0,
       "s": 1,
       "label": "Research",
-      "title": "Research in Social Spaces Group at UIUC",
-      "__html": "<ul> <li> Refactored a web app that allows users to connect to social media API and filter their new feed to get a sense of how algorithms and filters affect their feeds. </li> <li> Exploratory data mining, predictive machine learning and analysis on recidivism data scraped from government websites and apis, including developing visualizations and regression models. </li> </ul>"
+      "title": "Research at University of Illinois Urbana Champaign",
+      "__html": "<ul> <li> Working in <a href='http://social.cs.uiuc.edu/'>Social Spaces Group</a> with Karrie Karahalios, Kristen Vaccaro and other fellow undergraduate students </li> <li> Refactored a web app that allows users to connect to social media API and filter their new feed to get a sense of how algorithms and filters affect their feeds. </li> <li> Exploratory data mining, predictive machine learning and analysis on recidivism data scraped from government websites and apis, including developing visualizations and regression models. </li> </ul>"
     }
   ]
 }
