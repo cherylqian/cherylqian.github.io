@@ -35,22 +35,22 @@ class Main extends Component {
               <Text x={0} y={-1}>Chen</Text>
               <Text y={0} y={4}>Qian</Text>
             </Hexagon>
-            <a href="https://github.com/cherylqian" target="_blank" rel="noopener noreferrer">
+            <a xlinkHref="https://github.com/cherylqian" target="_blank" rel="noopener noreferrer">
               <Hexagon className="github" q={0} r={-1} s={1}>
                 <Text className="icon" y={4}>&#xf09b;</Text>
               </Hexagon>
             </a>
-            <a href="https://www.linkedin.com/in/chen-qian/" target="_blank" rel="noopener noreferrer">
+            <a xlinkHref="https://www.linkedin.com/in/chen-qian/" target="_blank" rel="noopener noreferrer">
               <Hexagon className="linkedin" q={1} r={-1} s={0}>
                 <Text className="icon" y={3.5}>&#xf0e1;</Text>
               </Hexagon>
             </a>
-            <a href="http://chenq2.web.engr.illinois.edu/resume.pdf">
+            <a xlinkHref="http://chenq2.web.engr.illinois.edu/resume.pdf">
               <Hexagon className="resume" q={-1} r={1} s={0}>
                 <Text className="icon" y={3.5}>&#xf016;</Text>
               </Hexagon>
             </a>
-            <a href="mailto:chenq2@illinois.edu">
+            <a xlinkHref="mailto:chenq2@illinois.edu">
               <Hexagon className="mail" q={1} r={0} s={-1}>
                 <Text className="icon" y={3.5}>&#xf003;</Text>
               </Hexagon>
