@@ -7,4 +7,4 @@ import registerServiceWorker from './registerServiceWorker';
 import 'normalize.css';
 
 ReactDOM.render(<Main />, document.getElementById('root'));
-registerServiceWorker();
+// registerServiceWorker();
