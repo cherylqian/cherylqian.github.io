@@ -1,5 +1,7 @@
 <template>
-  <h1>chen<b>qian</b></h1>
+  <div class="container">
+    placeholder
+  </div>
 </template>
 
 <script>

@@ -52,4 +52,8 @@ nav a.router-link-active {
 nav a:hover {
   border-bottom: 2px solid #2c3e50;
 }
+
+.container {
+  margin-top: 2rem;
+}
 </style>
