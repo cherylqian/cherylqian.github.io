@@ -4,14 +4,14 @@
 
 <script>
 export default {
-  name: "Heading"
-};
+  name: 'Heading'
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  font-family: "Caveat", cursive;
+  font-family: 'Caveat', cursive;
   font-weight: normal;
   font-size: 4em;
 }

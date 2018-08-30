@@ -1,29 +1,15 @@
-import Vue from "vue/dist/vue.js";
-import VueRouter from "vue-router";
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import App from './App'
+import router from './router'
 
-import App from "./App.vue";
-import Description from "./Description.vue";
-import Experience from "./Experience.vue";
+Vue.config.productionTip = false
 
-Vue.config.productionTip = false;
-Vue.use(VueRouter);
-
-const NotFound = {
-  template: "<p>The page you're looking for does not exist :<</p>"
-};
-
-const routes = [
-  { path: "/", component: Description },
-  { path: "/experience", component: Experience },
-  { path: "*", component: NotFound }
-];
-
-const router = new VueRouter({
-  mode: "history",
-  routes
-});
-
+/* eslint-disable no-new */
 new Vue({
+  el: '#app',
   router,
-  render: h => h(App)
-}).$mount("#app");
+  components: { App },
+  template: '<App/>'
+})

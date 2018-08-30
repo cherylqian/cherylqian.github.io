@@ -10,20 +10,20 @@
 </template>
 
 <script>
-import Heading from "./components/Heading.vue";
+import Heading from './components/Heading.vue'
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
     Heading
   }
-};
+}
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Ubuntu:300");
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Ubuntu:300');
 #app {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

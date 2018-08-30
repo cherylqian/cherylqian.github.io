@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="profile" alt="profile" src="./assets/profile.jpg">
+    <img class="profile" alt="profile" src="../assets/profile.jpg">
     <div class="text">
       <p>Computer Science</p>
       <p>Art + Design</p>
@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Contact from "./components/Contact.vue";
+import Contact from './Contact.vue'
 export default {
-  name: "Description",
+  name: 'Description',
   components: {
     Contact
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
