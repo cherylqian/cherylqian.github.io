@@ -26,8 +26,6 @@ export default {
   width: 65%;
   border-radius: 5px;
 }
-.text {
-}
 
 @media only screen and (min-width: 576px) {
   .container {

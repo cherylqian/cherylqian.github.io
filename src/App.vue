@@ -46,11 +46,10 @@ nav a {
 
 nav a.router-link-active {
   border-bottom: 2px solid #2c3e50;
-  font-weight: bold;
 }
 
 nav a:hover {
-  border-bottom: 2px solid #2c3e50;
+  font-weight: bold;
 }
 
 .container {
