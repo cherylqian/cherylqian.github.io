@@ -40,8 +40,15 @@ export default {
 <style scoped>
 div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 5rem;
+  padding: 0 5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  div {
+    margin-top: 5rem;
+    padding: 0;
+  }
 }
 </style>

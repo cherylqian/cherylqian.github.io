@@ -57,4 +57,10 @@ nav a:hover {
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
+
+@media only screen and (max-width: 576px) {
+  h1 {
+    margin: 1rem auto;
+  }
+}
 </style>
