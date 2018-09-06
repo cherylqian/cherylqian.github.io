@@ -31,7 +31,7 @@ export default {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #2c3e50;
 }
 
@@ -42,6 +42,7 @@ nav {
 
 nav a {
   margin: 0 1em;
+  text-decoration: none;
 }
 
 nav a.router-link-active {

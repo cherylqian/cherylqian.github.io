@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Research Assistant in Health Data Visualization",
+    "time": "2018",
+    "content": "Front end web development for health data visualization and interaction using React.<br/><br/>Reimplement the <a href='https://iquery.illinois.gov/iquery/'>IQuery website</a>, a web-based health data query system from Illinois Department of Public Health, making it faster and more user-friendly. The new website will have a modern and straightforward interface with better data visualizations that allow both ordinary users and health professionals to gain a better experience and achieve their goals."
+  },
+  {
+    "title": "Research Assistant at UIUC Social Spaces Group",
+    "time": "2017-2018",
+    "content": "Working with <a href='http://kvaccaro.com/'>Kristen Vaccaro</a> on her project further exploring the cause of the placebo effect created by control settings.<br/><br/>Developed a web tool that connects to social media API and allows users filter their news feed.<br/><br/>Also worked on exploratory data mining and analytics on large datasets."
+  },
+  {
+    "title": "Internship at Cybernet Systems",
+    "time": "2017",
+    "content": "Maintain their Chinese website and work on software demos."
+  }
+]
