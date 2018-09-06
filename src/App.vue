@@ -55,5 +55,6 @@ nav a:hover {
 
 .container {
   margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 </style>
