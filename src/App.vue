@@ -3,7 +3,6 @@
     <Heading/>
     <nav>
       <router-link exact to="/">Home</router-link>
-      <router-link to="/experience">Experience</router-link>
     </nav>
     <router-view></router-view>
   </div>
